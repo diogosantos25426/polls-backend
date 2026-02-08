@@ -21,8 +21,8 @@ async function generateWithAI(req, res) {
     }
 
     // Usa o cliente já inicializado no topo
-const model = genAI.getGenerativeModel({ model: "gemini-3-flash-preview" });
 
+const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
     const instruction = `
 Cria uma sondagem sobre: "${prompt}"
 Podes usar estes tipos de elementos conforme necessário:
