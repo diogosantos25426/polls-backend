@@ -4,7 +4,7 @@ const app = require('./src/app');
 const { initRealtime } = require('./src/services/realtime');
 
 // Porta do servidor
-const PORT = process.env.PORT || 10000;
+const PORT = process.env.PORT || 4000;
 
 const server = http.createServer(app);
 
